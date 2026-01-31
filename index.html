@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Paper Showcase</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Custom styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .content {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .video-title {
+            margin-top: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .video-container {
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container content">
+        <!-- Paper Title and Abstract -->
+        <h1 class="text-center">Disturbance-Robust Dynamical System Learning with Neural ODEs and Flow-Matching Augmentation</h1>
+        <p><strong>Abstract:</strong> Autonomous dynamical systems (DS) are essential for imitation learning but often face challenges in simultaneously achieving high accuracy, stability guarantees, and resistance to disturbances. To overcome these limitations, this paper proposes a globally stable DS with trajectory attraction and disturbance robustness, termed K-Canyon DS (KCDS). The method first employs an unconstrained Neural ODE to learn a diffeomorphic mapping from the task space to a linear latent space, thereby enhancing learning accuracy while ensuring global stability. Subsequently, based on clustering of starting points in the linear latent space, a nonlinear learnable trajectory-attractive field with a canyon-like structure is introduced to confer disturbance robustness. System parameters are trained via flow matching-based data augmentation, ultimately achieving a globally stable and disturbance-robust DS design. The proposed method is thoroughly evaluated on 2D and 3D LASA datasets, including comparative experiments with open-source baselines under disturbance. Real-robot experiments further demonstrate its practical applicability. </p>
+
+        <!-- Links -->
+        <div class="links my-4">
+            <p><strong>GitHub Code Link:</strong><a href="https://github.com/bbg-sjtu/KCDS" target="_blank">click here</a></p>
+        </div>
+
+        <!-- Experimental Videos -->
+        <h2 class="mt-4">Experimental Videos</h2>
+        <div class="row">
+            <div class="col-md-6 video-container">
+                <div class="video-title">A-Shape Painting Experiment</div>
+                <video width="100%" controls>
+                    <source src="Media/lasa.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="col-md-6 video-container">
+                <div class="video-title">Peg-in-Hole Experiment</div>
+                <video width="100%" controls>
+                    <source src="Media/peginhole.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
