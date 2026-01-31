@@ -10,7 +10,5 @@ This is the codebase for the KCDS method.
 - **`EF+CNF+FMAug+KCanyon+3D/`** - Code for training and testing KCDS with Neural ODEs and FM enhancements on the LASA 3D dataset
 - **`Media/`** - Experimental videos (see below)
 
-
 ## 🎬 Experimental Videos
-- [A-Shape painting video](Media/lasa.mp4)
-- [Peg-in-hole task video](Media/peginhole.mp4)
+Please visit [project webpage](https://bbg-sjtu.github.io/KCDS/).
