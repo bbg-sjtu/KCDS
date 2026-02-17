@@ -15,6 +15,8 @@ Please visit [project webpage](https://bbg-sjtu.github.io/KCDS/).
 
 ## 🖼️ Simulation experimental results
 
-Comparison of test results of Stage I and Stage II on LASA 2D/3D datasets
+1. Comparison of test results of Stage I and Stage II on LASA 2D/3D datasets
+![StageI&II](Media/StageI_II.png)
 
-![Stage I&II](Media/Stage I & II.png)
+2. Comparison of robustness test results of various models (noise std=0.001)
+![Disturbance robustness](Media/anti.png)
