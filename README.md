@@ -17,4 +17,4 @@ Please visit [project webpage](https://bbg-sjtu.github.io/KCDS/).
 
 Comparison of test results of Stage I and Stage II on LASA 2D/3D datasets
 
-![Stage I&II](Media/Stage I & II.png)
+![Stage I&II](Media/StageI_II.png)
