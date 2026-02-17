@@ -12,3 +12,9 @@ This is the codebase for the KCDS method.
 
 ## 🎬 Experimental Videos
 Please visit [project webpage](https://bbg-sjtu.github.io/KCDS/).
+
+## 🖼️ Simulation experimental results
+
+Comparison of test results of Stage I and Stage II on LASA 2D/3D datasets
+
+![Stage I&II](Media/Stage I & II.png)
